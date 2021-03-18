@@ -1,5 +1,6 @@
-## Introduction
-      This miniproject is based on automated excelsheets where we can retrive and extract a particular data from a large group of files into a master sheet using python automation
+## Introduction 
+This miniproject is based on automated excelsheets where we can retrive and extract a particular data from a large group of files into a master sheet using python automation.
+our main aim is to make data entry job easy and We are going to write a Python program that can process thousands of spreadsheets and manage all the calculations under a second for the user.
  
 
 
@@ -8,16 +9,18 @@
 | --- | --- | --- | --- |
 | HLR01 | Excel WorkBook | WorkBook contains 5 worksheets with one MasterSheet | Implementing |
 | HLR02 | User Inputs | Inputs like Name,PsNo,Email Id | Implementing |
-| HLR03 | Read & Write | Reading from existing sheets and writing to MasterSheet | Implementing |
+| HLR03 | Read and write data | Reading from existing sheets and writing to MasterSheet | Implementing |
+| HLR04 | Retrive data | To retrive required data from work sheets into master sheet | Implementing |
 
 
 ##  Low level Requirements:
 | ID | Requirements | Description | Status |
 | --- | --- | --- | --- |
-| HLR01-LR1 | Data Collection | worksheets contains the data of company details and academic details of user input | Implementing |
+| HLR01-LR1 | Create worksheets in excel | worksheets contains the data of company details and academic details of user input | Implementing |
 | HLR01-LR2 | Data Size | Each Worksheet Contains minimum of 40 rows and 10 columns | Implementing |
 | HLR01-LR3 | Excel file format | The workbook file should be of .xlsx format | Implementing |
 | HLR02-LR1 | Inputs | user can give multiple inputs like name,PsNo,Email Id at once | Implementing |
+| HLR02-LR2 | Identify the data we need to combine | Reading data from all the 5 Worksheets from workbook | Implementing |
 | HLR03-LR1 | Reading Data | Reading all 5 Worksheets from workbook | Implementing |
 | HLR03-LR2 | Searching Data | Search for specific data based on user specific inputs | Implementing |
 | HLR03-LR3 | Writing Paricular Data | Only specific kind of data should be written to Mastersheet | Implementing |
