@@ -59,3 +59,6 @@ our main aim is to make data entry job easy and We are going to write a Python p
 *	Input:- User inputs related to the data in excel sheets
 *	Output: -gives all the relevant information of particular input data given by the user
 *	source: -excel sheets  gives the required output into the master sheet
+## SWOT:
+
+![Untitled Document (1)](https://user-images.githubusercontent.com/78890690/111576209-06b1d180-87d6-11eb-8729-1ab7dc11183f.png)
