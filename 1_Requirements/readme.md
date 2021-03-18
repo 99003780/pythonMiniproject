@@ -15,7 +15,7 @@ our main aim is to make data entry job easy and We are going to write a Python p
 
 ##  Low level Requirements:
 | ID | Requirements | Description | Status |
-| --- | --- | --- | --- |
+| --------- | --------------- | --------------------------------- | --------------- |
 | HLR01-LR1 | Create worksheets in excel | worksheets contains the data of company details and academic details of user input | Implementing |
 | HLR01-LR2 | Data Size | Each Worksheet Contains minimum of 40 rows and 10 columns | Implementing |
 | HLR01-LR3 | Excel file format | The workbook file should be of .xlsx format | Implementing |
@@ -61,4 +61,4 @@ our main aim is to make data entry job easy and We are going to write a Python p
 *	source: -excel sheets  gives the required output into the master sheet
 ## SWOT:
 
-![Untitled Document (1)](https://user-images.githubusercontent.com/78890690/111576209-06b1d180-87d6-11eb-8729-1ab7dc11183f.png)
+![Untitled Document (2)](https://user-images.githubusercontent.com/78890690/111605629-75a22100-87fc-11eb-9d2a-28050ca4d849.png)
