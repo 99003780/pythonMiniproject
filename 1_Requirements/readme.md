@@ -1,3 +1,8 @@
+## Introduction
+      This miniproject is based on automated excelsheets where we can retrive and extract a particular data from a large group of files into a master sheet using python automation
+ 
+
+
 ##  High level Requirements:
 | ID | Requirements | Description | Status |
 | --- | --- | --- | --- |
