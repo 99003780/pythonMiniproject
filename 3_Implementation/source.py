@@ -30,7 +30,7 @@ for i in range(1, 5):
 df = pd.DataFrame(df6)
 # for extention part
 df3 = pd.DataFrame()
-n = int(input('Enter no of inputs:-'))
+n = int(input('Enter no of inputs:- '))
 count = 0
 
 # this part is used to ask input data from terminal
@@ -48,28 +48,30 @@ for _ in range(n):
 
 for i in temp:
     data, name, email = i
-    y = read['Sheet1']
-    y = y[(y['PS number'] == data) & (y['Display Name'] == name) & (y['Official Email Address'] == email)]
+    var = read['Sheet1']
+    var = var[(var['PS number'] == data) & (var['Display Name'] == name) & (var['Official Email Address'] == email)]
 # If input is invalid
-    if len(y) == 0:
+    if len(var) == 0:
         print('Invalid input')
         print('Enter valid input')
 # If given input is valid
     else:
-        df = pd.DataFrame(y, columns=['SL#', 'PS number', 'Display Name', 'Official Email Address'])
+        df = pd.DataFrame(var, columns=['SL#', 'PS number', 'Display Name', 'Official Email Address'])
         for i in read.keys():
-            x = read[i]
-            t = x[(x['PS number'] == data) & (x['Display Name'] == name) & (x['Official Email Address'] == email)]
-            col = x.columns
-
+            obj = read[i]
+            t = obj[(obj['PS number'] == data) & (obj['Display Name'] == name) & (obj['Official Email Address'] == email)]
+            col = obj.columns
+            print(t)
 # count no of colomuns from sheets to summary sheet
             for j in col:
                 df[j] = t[j]
                 count = count+1
                 df3.at[i, 'No of columns'] = count
+
     df1 = df1.append(df)
 df2 = df1.describe()
 df3.at[1, 'Total column count'] = (len(df1.columns)*n)
+print(count)
 book = load_workbook('Data.xlsx')
 writer = pd.ExcelWriter('Data.xlsx', engine='openpyxl')
 writer.book = book
