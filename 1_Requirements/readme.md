@@ -7,23 +7,26 @@ our main aim is to make data entry job easy and We are going to write a Python p
 ##  High level Requirements:
 | ID | Requirements | Description | Status |
 | --- | --- | --- | --- |
-| HLR01 | Excel WorkBook | WorkBook contains 5 worksheets with one MasterSheet | Implementing |
-| HLR02 | User Inputs | Inputs like Name,PsNo,Email Id | Implementing |
-| HLR03 | Read and write data | Reading from existing sheets and writing to MasterSheet | Implementing |
-| HLR04 | Retrive data | To retrive required data from work sheets into master sheet | Implementing |
+| HLR01 | Excel WorkBook | WorkBook contains 5 worksheets with one MasterSheet | Implemented |
+| HLR02 | User Inputs | Inputs like Name,PsNo,Email Id | Implemented |
+| HLR03 | Read and write data | Reading from existing sheets and writing to MasterSheet | Implemented |
+| HLR04 | Retrive data | To retrive required data from work sheets into master sheet | Implemented |
+| HLR05 | Data count | To count extracted data from each sheet and print in summary sheet | Implemented |
+
 
 
 ##  Low level Requirements:
 | ID | Requirements | Description | Status |
 | --------- | --------------- | --------------------------------- | --------------- |
-| HLR01-LR1 | Create worksheets in excel | worksheets contains the data of company details and academic details of user input | Implementing |
-| HLR01-LR2 | Data Size | Each Worksheet Contains minimum of 40 rows and 10 columns | Implementing |
-| HLR01-LR3 | Excel file format | The workbook file should be of .xlsx format | Implementing |
-| HLR02-LR1 | Inputs | user can give multiple inputs like name,PsNo,Email Id at once | Implementing |
-| HLR02-LR2 | Identify the data we need to combine | Reading data from all the 5 Worksheets from workbook | Implementing |
-| HLR03-LR1 | Reading Data | Reading all 5 Worksheets from workbook | Implementing |
-| HLR03-LR2 | Searching Data | Search for specific data based on user specific inputs | Implementing |
-| HLR03-LR3 | Writing Paricular Data | Only specific kind of data should be written to Mastersheet | Implementing |
+| HLR01-LR1 | Create worksheets in excel | worksheets contains the data of company details and academic details of user input | Implemented |
+| HLR01-LR2 | Data Size | Each Worksheet Contains minimum of 40 rows and 10 columns | Implemented |
+| HLR01-LR3 | Excel file format | The workbook file should be of .xlsx format | Implemented |
+| HLR02-LR1 | Inputs | user can give multiple inputs like name,PsNo,Email Id at once | Implemented |
+| HLR02-LR2 | Identify the data we need to combine | Reading data from all the 5 Worksheets from workbook | Implemented |
+| HLR03-LR1 | Reading Data | Reading all 5 Worksheets from workbook | Implemented |
+| HLR03-LR2 | Searching Data | Search for specific data based on user specific inputs | Implemented |
+| HLR04-LR1 | Writing Paricular Data | Only specific kind of data should be written to Mastersheet | Implemented |
+| HLR05-LR1 | Count  no of rows and columns of data extracted from each sheet | print in summary sheet | Implemented |
 
 
 
