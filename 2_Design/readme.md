@@ -15,4 +15,4 @@
 
 # V- Model
 
-![Drawing (1)](https://user-images.githubusercontent.com/78890690/112092978-b1533700-8bbe-11eb-98ab-f36d60311f80.png)
+![image](https://user-images.githubusercontent.com/78890690/112094167-c6c96080-8bc0-11eb-8d8d-4f7c40df0b9a.png)
