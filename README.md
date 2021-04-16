@@ -13,7 +13,7 @@ Folder             | Description
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
 
-**Library required for running this project:**
+## Library required for running this project:
 **SLNo** | **Library name** | **Operation** | **Install Library Code**
 ------ | ------------------ |---------------| ------
 1 |  `Openpyxl`   | Reading and writing excel sheet | pip install openpyxl
@@ -39,7 +39,7 @@ The user defines the data that needs to be searched on the basis of the common d
 
 
 
-**Challenges Faced and How Was It Overcome**
+## Challenges Faced and How Was It Overcome
 1.	Implimenting the library
 2.	Writing data in mastersheet
 3.	Creating the database
