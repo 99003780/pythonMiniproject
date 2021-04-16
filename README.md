@@ -21,9 +21,9 @@ The aim of the project is to extract the data present in different spreadsheets 
   * `Email id : `
   
 The user defines the data that needs to be searched on the basis of the common data. The python program then reads the data corresponding to the particular data from different spreadsheets of excel. It then creates a mastersheet and adds the data from all the sheets to it. In the end, the data to be provided to the user is printed to the console.
-## Structure to Run the program present in 3_Implementation/src/mainproject.py
-*	STEP 1 : Run the mainproject.py file
-*	STEP 2 : Enter your multiple Workbook Path Present in 3_Implementation/DataSheet/ folder in terminal without quote  eg:- D:\Detail_Book2.xlsx
+## Structure to Run the program present in 3_Implementation/src/source.py
+*	STEP 1 : Run the source.py file
+*	STEP 2 : Enter your multiple Workbook Path Present in 3_Implementation/data.xlsx/ file 
 *	STEP 3 : If entered data is invalid :: Do you want enter data again Y/N: (# If yes enter multiple path if no go to step 4)
 *	STEP 4 : Do you want to: A) Search By PS Number : B) Search By User Name : [A/B]? : (Enter Details)
 *	STEP 5 : Open the Masterfile present at src folder to get output data.
