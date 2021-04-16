@@ -15,7 +15,7 @@ Folder             | Description
 
 ## About the project
 The aim of the project is to extract the data present in different spreadsheets in one excel file as required by the user by different paths given by him. The excel sheet scrolls through all the spreadsheets with the following data common in all the sheets:
-`Name`
+Markup : - `Name`
 `Ps Number`
 `Email id`
 The user defines the data that needs to be searched on the basis of the common data. The python program then reads the data corresponding to the particular data from different spreadsheets of excel. It then creates a mastersheet and adds the data from all the sheets to it. In the end, the data to be provided to the user is printed to the console.
@@ -31,6 +31,6 @@ The user defines the data that needs to be searched on the basis of the common d
 **SLNo** | **Library name** | **Operation** | **Install Library Code**
 ------ | ------------------ |---------------| ------
 1 |  `Openpyxl`   | Reading and writing excel sheet | pip install openpyxl
-2 | `Pandas'     | To automate excel sheet | pip install pandas
+2 | `Pandas`     | To automate excel sheet | pip install pandas
 3 | `OS` | searching the File path | pip install os_sys
 
