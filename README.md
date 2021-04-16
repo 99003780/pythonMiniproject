@@ -35,6 +35,8 @@ The user defines the data that needs to be searched on the basis of the common d
 *	STEP 4 : Do you want to: A) Search By PS Number : B) Search By User Name : [A/B]? : (Enter Details)
 *	STEP 5 : Open the Masterfile present at src folder to get output data.
 
+**Output in terminal**
+![image](https://user-images.githubusercontent.com/78890690/115014509-09384180-9ed0-11eb-98d3-6e53024f6b97.png)
 
 
 
