@@ -36,3 +36,8 @@ The user defines the data that needs to be searched on the basis of the common d
 2 | `Pandas`     | To automate excel sheet | pip install pandas
 3 | `OS` | searching the File path | pip install os_sys
 
+## Challenges Faced and How Was It Overcome
+1.	Implimenting the library
+2.	Writing data in mastersheet
+3.	Creating the database
+4.	Reading the file path from multiple directory
