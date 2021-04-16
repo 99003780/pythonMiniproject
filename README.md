@@ -15,12 +15,10 @@ Folder             | Description
 
 ## About the project
 The aim of the project is to extract the data present in different spreadsheets in one excel file as required by the user by different paths given by him. The excel sheet scrolls through all the spreadsheets with the following data common in all the sheets:
-•	Name
-•	PS Number
-•	Email Id 
+'Name'
+'Ps Number'
+'Email id'
 The user defines the data that needs to be searched on the basis of the common data. The python program then reads the data corresponding to the particular data from different spreadsheets of excel. It then creates a mastersheet and adds the data from all the sheets to it. In the end, the data to be provided to the user is printed to the console.
-
-
 ## Structure to Run the program present in 3_Implementation/src/mainproject.py
 •	STEP 1 : Run the mainproject.py file
 •	STEP 2 : Enter your multiple Workbook Path Present in 3_Implementation/DataSheet/ folder in terminal without quote eg:- D:\Detail_Book2.xlsx
