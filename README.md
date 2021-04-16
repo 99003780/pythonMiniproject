@@ -31,3 +31,10 @@ The user defines the data that needs to be searched on the basis of the common d
 1	| openpyxl|	Reading and write excel sheet	pip install openpyxl
 2 | Pandas | To automate excel sheets
 3	| os	|Searching the File Path	pip install os_sys
+
+**SL No            | Description
+-------------------| -----------------------------------------
+`1_Requirements`   | Documents detailing requirements and research
+`2_Design`         | Documents specifying design details
+`3_Implementation` | All code and documentation
+`4_Test_plan`      | Documents with test plans and procedures
