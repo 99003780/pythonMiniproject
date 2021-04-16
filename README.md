@@ -32,7 +32,7 @@ The user defines the data that needs to be searched on the basis of the common d
 2 | Pandas | To automate excel sheets
 3	| os	|Searching the File Path	pip install os_sys
 
-**SL No            | Description
+**SLNo**            | **Library name** | **Operation** | **Install Library Code**
 -------------------| -----------------------------------------
 `1_Requirements`   | Documents detailing requirements and research
 `2_Design`         | Documents specifying design details
