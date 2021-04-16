@@ -18,7 +18,7 @@ Folder             | Description
 ------ | ------------------ |---------------| ------
 1 |  `Openpyxl`   | Reading and writing excel sheet | pip install openpyxl
 2 | `Pandas`     | To automate excel sheet | pip install pandas
-3 | `OS` | searching the File path | pip install os_sys
+
 
 ## About the project
 The aim of the project is to extract the data present in different spreadsheets in one excel file as required by the user by different paths given by him. The excel sheet scrolls through all the spreadsheets with the following data common in all the sheets:
@@ -35,8 +35,7 @@ The user defines the data that needs to be searched on the basis of the common d
 *	STEP 4 : Do you want to: A) Search By PS Number : B) Search By User Name : [A/B]? : (Enter Details)
 *	STEP 5 : Open the Masterfile present at src folder to get output data.
 
-**Output in terminal**
-![image](https://user-images.githubusercontent.com/78890690/115014509-09384180-9ed0-11eb-98d3-6e53024f6b97.png)
+
 
 
 
