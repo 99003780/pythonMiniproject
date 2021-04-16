@@ -49,7 +49,7 @@ To build python project to do searching for user input data and find that data a
 
 **TBD**
 ## When:
-*	Simple caluculations like average.
+*	Simple caluclations like average.
 *	searching for person information
 *	contact information
 *	health check
