@@ -27,14 +27,11 @@ The user defines the data that needs to be searched on the basis of the common d
 •	STEP 4 : Do you want to: A) Search By PS Number : B) Search By User Name : [A/B]? : (Enter Details)
 •	STEP 5 : Open the Masterfile present at src folder to get output data.
 
-**SL No	| **Library Name ** | **Operation |	**Install Library Code
-1	| openpyxl|	Reading and write excel sheet	pip install openpyxl
-2 | Pandas | To automate excel sheets
-3	| os	|Searching the File Path	pip install os_sys
 
-**SLNo**            | **Library name** | **Operation** | **Install Library Code**
--------------------| -----------------------------------------
-`1_Requirements`   | Documents detailing requirements and research
-`2_Design`         | Documents specifying design details
-`3_Implementation` | All code and documentation
-`4_Test_plan`      | Documents with test plans and procedures
+
+**SLNo** | **Library name** | **Operation** | **Install Library Code**
+------ | ------------------ |---------------| ------
+1 |  `Openpyxl`   | Reading and writing excel sheet pip install openpyxl
+2 | `Pandas'     | To automate excel sheet pip install pandas
+3 | `OS` | searching the File path pip install os_sys
+
