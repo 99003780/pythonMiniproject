@@ -13,6 +13,13 @@ Folder             | Description
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
 
+**Library required for running this project:
+**SLNo** | **Library name** | **Operation** | **Install Library Code**
+------ | ------------------ |---------------| ------
+1 |  `Openpyxl`   | Reading and writing excel sheet | pip install openpyxl
+2 | `Pandas`     | To automate excel sheet | pip install pandas
+3 | `OS` | searching the File path | pip install os_sys
+
 ## About the project
 The aim of the project is to extract the data present in different spreadsheets in one excel file as required by the user by different paths given by him. The excel sheet scrolls through all the spreadsheets with the following data common in all the sheets:
 
@@ -30,13 +37,9 @@ The user defines the data that needs to be searched on the basis of the common d
 
 
 
-**SLNo** | **Library name** | **Operation** | **Install Library Code**
------- | ------------------ |---------------| ------
-1 |  `Openpyxl`   | Reading and writing excel sheet | pip install openpyxl
-2 | `Pandas`     | To automate excel sheet | pip install pandas
-3 | `OS` | searching the File path | pip install os_sys
 
-## Challenges Faced and How Was It Overcome
+
+**Challenges Faced and How Was It Overcome **
 1.	Implimenting the library
 2.	Writing data in mastersheet
 3.	Creating the database
