@@ -21,7 +21,7 @@ Folder             | Description
 
 
 ## About the project
-The aim of the project is to extract the data present in different spreadsheets in one excel file as required by the user by different paths given by him. The excel sheet scrolls through all the spreadsheets with the following data common in all the sheets:
+The aim of the project is to extract the data present in different spreadsheets in one excel file as required by the user. The excel sheet scrolls through all the spreadsheets with the following data common in all the sheets:
 
   * `Name :`
   * `Ps Number : `
